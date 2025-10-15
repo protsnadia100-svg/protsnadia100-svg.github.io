@@ -1,1 +1,29 @@
 # protsnadia100-svg.github.io
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Побудова гіперболи</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="style copy.css" />
+</head>
+<body>
+  <h1>Інтерактивна побудова гіперболи другого порядку</h1>
+
+  <div class="controls">
+    <label>a: <input type="number" id="a" value="3" step="0.1"></label>
+    <label>b: <input type="number" id="b" value="2" step="0.1"></label>
+    <label>Фокус c: <input type="number" id="c" value="3.6" step="0.1"></label>
+    <button id="plotButton">Побудувати</button>
+  </div>
+
+  <div id="plot"></div>
+
+  <footer>
+    <p>© 2025 Побудова кривих другого порядку — Гіпербола</p>
+  </footer>
+
+  <script src="script copy.js"></script>
+</body>
+</html>
