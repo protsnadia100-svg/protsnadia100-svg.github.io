@@ -1,0 +1,78 @@
+/* 🧭 Загальний стиль */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #e0ecff, #cea1e7);
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* 📋 Панель керування */
+.controls {
+  background: rgb(246, 210, 255);
+  backdrop-filter: blur(12px);
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  width: 90px;
+}
+
+button {
+  background: #ffffff;
+  color: rgb(73, 0, 67);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* 🖼️ Графік */
+#plot {
+  width: 100%;
+  height: 80vh;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+#plot.show {
+  opacity: 1;
+}
+
+/* 🪙 Підвал */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #475569;
+  background: rgba(255, 255, 255, 0.3);
+}
